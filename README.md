@@ -9,3 +9,6 @@
 ## Brain-calc asciinema
 
 [![asciicast](https://asciinema.org/a/665935)]
+
+##Brain-gcd asciinema
+[![asciicast](https://asciinema.org/a/665942)]
