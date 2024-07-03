@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Collection of mathematical command-line games"
 authors = ["Viktoriya Dzhoruhova <viktodzho@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/viktoriyadzhoruhova/python-project-49"
 packages = [
   { include = "brain_games" },
 ]
@@ -21,6 +22,13 @@ flake8 = "^7.1.0"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
