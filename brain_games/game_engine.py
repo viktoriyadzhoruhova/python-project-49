@@ -1,4 +1,3 @@
-
 import prompt
 
 ROUNDS_COUNT = 3
