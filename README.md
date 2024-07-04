@@ -4,43 +4,43 @@
 
 ## Brain Games
 
-This project contains a set of simple mathematical games.
+**This project contains a set of simple mathematical games. In each game, you need to answer several questions. If you answer all questions correctly, you win. If even one answer is incorrect, the game ends. **
 
-### Installation
+# Installation
 
-To install the package, use the following command:
+**To install the package, use the following command:**
 
-pip install --user hexlet-code
+- pip install --user hexlet-code
 
-### Usage:
-To run each game, use the following commands:
+# Usage:
+**To run each game, use the following commands:**
 
-## Brain Even: check for even numbers:
-brain-even
+1. **Brain Even: check for even numbers:**
+`brain-even`
 
-# Brain-even asciinema
+- Brain-even asciinema
 [![asciicast](https://asciinema.org/a/665934)]
 
-##Brain Calc: simple arithmetic calculator:
-brain-calc
+2. **Brain Calc: simple arithmetic calculator:**
+`brain-calc`
 
-# Brain-calc asciinema
+- Brain-calc asciinema
 [![asciicast](https://asciinema.org/a/665935)]
 
-## Brain GCD: find the greatest common divisor
-brain-gcd
+3. **Brain GCD: find the greatest common divisor**
+`brain-gcd`
 
-# Brain-gcd asciinema
+- Brain-gcd asciinema
 [![asciicast](https://asciinema.org/a/665942)]
 
-## Brain Progression: guess the missing number in an arithmetic progression
-brain-progression
+4. **Brain Progression: guess the missing number in an arithmetic progression**
+`brain-progression`
 
-# Brain-progression asciinema
+- Brain-progression asciinema
 [![asciicast](https://asciinema.org/a/666611)]
 
-## Brain Prime: check if a number is prime
-brain-prime
+5. **Brain Prime: check if a number is prime**
+`brain-prime`
 
-#Brain-prime asciinema
+- Brain-prime asciinema
 [![asciicast](https://asciinema.org/a/666618)]

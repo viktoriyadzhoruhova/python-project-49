@@ -1,21 +1,23 @@
+
 import random
 
 GAME_RULE = "What number is missing in the progression?"
 
 
-def generate_progression(length, start, step):
+def generate_progression():
 
-    return [start + step * i for i in range(length)]
+    start = random.randint(1, 10)
+    step = random.randint(1, 5)
+    length = random.randint(5, 10)
+    progression = [str(start + step * i) for i in range(length)]
+    return progression
 
 
 def generate_round():
 
-    length = random.randint(5, 10)
-    start = random.randint(1, 10)
-    step = random.randint(1, 5)
-    progression = generate_progression(length, start, step)
-    hidden_index = random.randint(0, length - 1)
-    correct_answer = str(progression[hidden_index])
-    progression[hidden_index] = '..'
-    question = ' '.join(map(str, progression))
+    progression = generate_progression()
+    missing_index = random.randint(0, len(progression) - 1)
+    correct_answer = progression[missing_index]
+    progression[missing_index] = ".."
+    question = " ".join(progression)
     return question, correct_answer
