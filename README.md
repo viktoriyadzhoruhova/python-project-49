@@ -19,28 +19,28 @@
 `brain-even`
 
 - Brain-even asciinema
-[![asciicast](https://asciinema.org/a/665934)]
+[![asciicast](https://asciinema.org/a/665934.svg)](https://asciinema.org/a/665934)
 
 2. **Brain Calc: simple arithmetic calculator:**
 `brain-calc`
 
 - Brain-calc asciinema
-[![asciicast](https://asciinema.org/a/665935)]
+[![asciicast](https://asciinema.org/a/665935.svg)](https://asciinema.org/a/665935)
 
 3. **Brain GCD: find the greatest common divisor**
 `brain-gcd`
 
 - Brain-gcd asciinema
-[![asciicast](https://asciinema.org/a/665942)]
+[![asciicast](https://asciinema.org/a/665942.svg)](https://asciinema.org/a/665942)
 
 4. **Brain Progression: guess the missing number in an arithmetic progression**
 `brain-progression`
 
 - Brain-progression asciinema
-[![asciicast](https://asciinema.org/a/666611)]
+[![asciicast](https://asciinema.org/a/666611.svg)](https://asciinema.org/a/666611)
 
 5. **Brain Prime: check if a number is prime**
 `brain-prime`
 
 - Brain-prime asciinema
-[![asciicast](https://asciinema.org/a/666618)]
+[![asciicast](https://asciinema.org/a/666618.svg)](https://asciinema.org/a/666618)

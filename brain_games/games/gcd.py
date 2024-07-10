@@ -1,20 +1,19 @@
-
 import random
 
 GAME_RULE = "Find the greatest common divisor of given numbers."
 
 
-def gcd(a, b):
+def gcd(number1, number2):
 
-    while b:
-        a, b = b, a % b
-    return a
+    while number2:
+        number1, number2 = number2, number1 % number2
+    return number1
 
 
 def generate_round():
 
-    a = random.randint(1, 100)
-    b = random.randint(1, 100)
-    question = f"{a} {b}"
-    correct_answer = str(gcd(a, b))
+    number1 = random.randint(1, 100)
+    number2 = random.randint(1, 100)
+    question = f"{number1} {number2}"
+    correct_answer = str(gcd(number1, number2))
     return question, correct_answer

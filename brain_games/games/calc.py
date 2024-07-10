@@ -5,22 +5,22 @@ import random
 GAME_RULE = "What is the result of the expression?"
 
 
-def calculate(a, b, operator):
+def calculate(num1, num2, operator):
 
     if operator == '+':
-        return a + b
+        return num1 + num2
     elif operator == '-':
-        return a - b
+        return num1 - num2
     elif operator == '*':
-        return a * b
+        return num1 * num2
 
 
 def generate_round():
 
     operators = ['+', '-', '*']
-    a = random.randint(1, 20)
-    b = random.randint(1, 20)
+    num1 = random.randint(1, 20)
+    num2 = random.randint(1, 20)
     operator = random.choice(operators)
-    question = f"{a} {operator} {b}"
-    correct_answer = str(calculate(a, b, operator))
+    question = f"{num1} {operator} {num2}"
+    correct_answer = str(calculate(num1, num2, operator))
     return question, correct_answer
