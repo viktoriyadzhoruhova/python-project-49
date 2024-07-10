@@ -18,5 +18,6 @@ def generate_round():
     step = random.randint(1, 5)
     length = random.randint(5, 10)
     missing_index = random.randint(0, length - 1)
-    question, correct_answer = generate_progression(start, step, length, missing_index)
+    progression = generate_progression(start, step, length, missing_index)
+    question, correct_answer = progression
     return question, correct_answer
