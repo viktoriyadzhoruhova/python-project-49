@@ -10,7 +10,9 @@
 
 **To install the package, use the following command:**
 
-- pip install --user hexlet-code
+make build
+make install
+make package-install
 
 # Usage:
 **To run each game, use the following commands:**
@@ -19,7 +21,7 @@
 `brain-even`
 
 - Brain-even asciinema
-[![asciicast](https://asciinema.org/a/665934.svg)](https://asciinema.org/a/665934)
+[![asciicast](https://asciinema.org/a/667758.svg)](https://asciinema.org/a/667758)
 
 2. **Brain Calc: simple arithmetic calculator:**
 `brain-calc`
